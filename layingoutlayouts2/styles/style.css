@@ -25,7 +25,7 @@
 
 #margin, #border, #padding, #content {
     align-items: center;
-    font-size: 50px;
+    color: white;
 }
 #margin {
     width: 100%;
@@ -73,6 +73,7 @@
     text-align: center;
 
 }
+
 article {
     float: left;
     width: 24.25%;
