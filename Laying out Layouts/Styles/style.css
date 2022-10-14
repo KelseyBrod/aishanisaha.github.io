@@ -1,0 +1,46 @@
+* {
+    align-items: center;
+}
+#margin {
+    width: 100%;
+    height: 100%;
+    background: red;
+    overflow: hidden;
+    text-align: center;
+}
+
+#border{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 25%;
+    background: green;
+    text-align: center;
+
+}
+
+#padding{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 75%;
+    padding-bottom: 75%;
+    background: rgb(2, 0, 128);
+    text-align: center;
+
+}
+
+#content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 25%;
+    background: rgb(128, 109, 0);
+    text-align: center;
+    padding-bottom: 25%;
+    margin-bottom: 75%;
+}
