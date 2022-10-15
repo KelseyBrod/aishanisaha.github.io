@@ -1,9 +1,9 @@
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
 .split {
     height: 100%;
     width: 50%;
@@ -33,17 +33,14 @@
     background: red;
     overflow: hidden;
     text-align: center;
-    margin: 0px;
+    margin: auto%;
 }
 
 #border{
     position: relative;
     width: 50%;
     height: 50%;
-    margin: auto;
-    margin: 0 auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin: 25%;
     background: green;
     text-align: center;
 
@@ -54,9 +51,7 @@
     position: relative;
     width: 50%;
     height: 50%;    
-    margin: 0 auto;
-    margin-top: 15%;
-    padding-bottom: 15%;
+    margin: 35%;
     background: rgb(2, 0, 128);
     text-align: center;
 }
@@ -66,9 +61,7 @@
     position: relative;
     width: 50%;
     height: 50%;   
-    margin: 0 auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin: 15% auto;
     background: rgb(128, 109, 0);
     text-align: center;
 
