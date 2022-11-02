@@ -1,0 +1,30 @@
+body {
+    font-family: "Garamond", Georgia, serif;
+    background-image: url("../Images/yucca\ mountain.jpeg");
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+
+.boxmodel {
+    float: left;
+    padding: 0 20px 20px 200px;
+
+}
+
+p {
+    padding-right: 200px;
+    padding-top: 100px;
+    font-weight: 900;
+}
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    p {
+        background-color: white;
+    }
+}
