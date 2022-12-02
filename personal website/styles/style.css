@@ -19,8 +19,12 @@ section {
     position: fixed;
     text-align: center;
     font-size: 200px;
+    align-items: center;
 }
 
+.section1 {
+    text-align: center;
+}
 
 .movsquare {
     display: flex;
@@ -32,3 +36,31 @@ section {
     align-items: center;
     padding: 2%;
 }
+/* I want to center "The Future" */
+/* on opening, the page is out of whack */
+
+.container {
+    background-color: black;
+    color: black;
+    overflow: auto;
+}
+h1 {
+    position: absolute;
+    top: 390%;
+    color: aliceblue;
+    padding-left: 20px;
+    background-color: black;
+
+}
+
+.whybackg {
+    position: absolute;
+    top: 400%;
+    color: aliceblue;
+    padding-left: 20px;
+    background-color: black;
+    justify-content: center;
+    padding-right: 40px;
+
+}
+
