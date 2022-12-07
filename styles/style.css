@@ -122,24 +122,10 @@ nav {
 
 /* made everything more minimalist, but i don't get why some things are not centering but some are*/
 
-a:link {
-    color: rgb(8, 6, 6);
-  }
-  
-a:visited {
-    color: rgb(0, 0, 0);
-  }
-  
-a:hover {
-    color: rgb(109, 109, 109);
-  }
-  
- 
-a:active {
-    color: rgb(0, 0, 0);
-  }
 
- /* standardized links */
+.blacklink {
+    color: black;
+}
 
 .footerlink{
     color: white;

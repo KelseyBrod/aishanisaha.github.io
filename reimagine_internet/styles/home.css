@@ -1,0 +1,129 @@
+  body {
+    background-image: url(../images/backgroundhome1.jpg)
+  }
+
+
+
+  @keyframes ashley {
+    0% {
+        transform: translateX(0px);
+      }
+    25% {
+        transform: translateX(350px);
+      }
+    50% {
+        transform: translateX(750px);
+      }
+    75% {
+        transform: translateX(350px);
+      }
+    100% {
+        transform: translateX(0px);
+      }
+  }
+  .ash {
+    height: 100px;
+    position: absolute;
+    left: 35px;
+    top: 300px;
+    animation-name: ashley;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes lauren {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    }  
+  .laur {
+    height: 100px;
+    position: absolute;
+    left: 460px;
+    top: 550px;
+    animation-name: lauren;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes brandon {
+    0% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+
+      }
+    25% {
+        transform: translateY(250px);
+
+      }
+    50% {
+        transform: translateX(300px);
+
+      }
+    75% {
+        transform: translateY(50px);
+
+      }
+    100% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+
+      }
+  }
+  .brand {
+    height: 100px;
+    position: absolute;
+    left: 950px;
+    top: 412px;
+    animation-name: brandon;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+  }
+
+  .button {
+    background-color: white;
+    border: 0.5px solid #4228006b;
+    color: #422800;
+    -webkit-filter: blur(.7px);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 50px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 300px;
+    font-family: IBM Plex serif;
+    position: relative;
+    top: 77px;
+    left: 1100px;
+  }
+  
+  .button:hover {
+    background-color: #ffc7c5;
+  }
+  
+  .button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+  .Me {
+    position: relative;
+    left: 500px;
+    top: 412px;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    align-items: center;
+
+  }
+
+  #myname {
+    color: #422800;
+    font-size: 35px;
+    margin: 0px;
+  }

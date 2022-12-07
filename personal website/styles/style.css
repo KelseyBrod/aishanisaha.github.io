@@ -1,18 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 body {
-    height: 500vh;
+    /* height: 500vh; */
+    background: linear-gradient(white, black); 
+    /* or choose something else */
+    font-family: Merriweather;
 }
 
-section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: black;
+section1 {
+    background-color: beige;
 }
 
 .fullscreen {
@@ -57,18 +57,21 @@ section {
 .info {
     padding: 50px 50px;
     /* margin: 100px 0; */
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     justify-content: center;
     overflow: auto;
     z-index: 1;
-    font-size: 30px;
+    font-size: 20px;
+    border: 5px solid black;
+    background: linear-gradient(white, black); 
 }
 
 #emphasize {
     font-size: 100px;
     font-weight: 20px;
+    background-color: white;
 }
 
 .fleximage {
@@ -83,9 +86,13 @@ section {
     z-index: 0;
 }
 
-
-
-
+.link:hover {
+    background-color: red;
+    color: red;
+    border-color: red;
+    border: 30px;
+    cursor: pointer;
+  }
 
 
 
