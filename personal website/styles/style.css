@@ -65,7 +65,7 @@ section1 {
     z-index: 1;
     font-size: 20px;
     border: 5px solid black;
-    background: linear-gradient(white, black); 
+    background: linear-gradient(white, rgb(145, 145, 145)); 
 }
 
 #emphasize {
